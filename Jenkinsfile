@@ -12,7 +12,7 @@ pipeline {
         bat 'mvn test'
       }
     }
- 	
+ 	// 
    
 	stage('Deploy CloudHub') { 
       environment {
